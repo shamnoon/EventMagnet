@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.drc.mobile" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>DRC Cinemas</name>
+    <description>
+        A sample Apache Cordova application that responds to the deviceready event.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
+            <application android:usesCleartextTraffic="true" />
+        </edit-config>
+        <allow-intent href="market:*" />
+        <preference name="AutoHideSplashScreen" value="false" />
+        <preference name="SplashScreenDelay" value="5000" />
+        <preference name="orientation" value="portrait" />
+        <splash density="port-hdpi" src="res/screen/android/screen-hdpi-portrait.png" />
+        <splash density="port-ldpi" src="res/screen/android/screen-ldpi-portrait.png" />
+        <splash density="port-mdpi" src="res/screen/android/screen-mdpi-portrait.png" />
+        <splash density="port-xhdpi" src="res/screen/android/screen-xhdpi-portrait.png" />
+        <icon density="ldpi" src="res/icon/android/icon36.png" />
+        <icon density="mdpi" src="res/icon/android/icon48.png" />
+        <icon density="hdpi" src="res/icon/android/icon72.png" />
+        <icon density="xhdpi" src="res/icon/android/icon96.png" />
+        <hook src="hooks/copy_build_extra.js" type="after_prepare" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <plugin name="cordova-plugin-dialogs" spec="^2.0.1" />
+    <plugin name="cordova-plugin-spinner" spec="^1.1.0" />
+    <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
+    <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
+    <plugin name="cordova-plugin-firebase" spec="^2.0.0" />
+</widget>

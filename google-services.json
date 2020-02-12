@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1000459514332",
+    "firebase_url": "https://drc-cinemas.firebaseio.com",
+    "project_id": "drc-cinemas",
+    "storage_bucket": "drc-cinemas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000459514332:android:356f8bf55684a6d2",
+        "android_client_info": {
+          "package_name": "com.drc.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1000459514332-93fh80pkprh50iusj51jjoucst6bcd0g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC338m6tf2Di4HmocJR0fzsOPiJ4ULV21Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000459514332-93fh80pkprh50iusj51jjoucst6bcd0g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

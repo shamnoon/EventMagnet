@@ -1,0 +1,49 @@
+{
+  "name": "com.drc.mobile",
+  "displayName": "DRCCinemas",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-android": "^8.0.0",
+    "cordova-plugin-badge": "^0.8.8",
+    "cordova-plugin-device": "^2.0.3",
+    "cordova-plugin-inappbrowser": "^3.1.0",
+    "cordova-plugin-local-notification": "git+https://github.com/katzer/cordova-plugin-local-notifications.git",
+    "cordova-plugin-x-toast": "^2.7.2"
+  },
+  "devDependencies": {
+    "cordova-plugin-dialogs": "^2.0.2",
+    "cordova-plugin-firebase": "^2.0.5",
+    "cordova-plugin-spinner": "^1.1.0",
+    "cordova-plugin-splashscreen": "^5.0.3",
+    "cordova-plugin-statusbar": "^2.4.3",
+    "cordova-plugin-whitelist": "^1.3.4"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-dialogs": {},
+      "cordova-plugin-spinner": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-firebase": {},
+      "cordova-plugin-x-toast": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-local-notification": {
+        "ANDROID_SUPPORT_V4_VERSION": "26.+"
+      }
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}
